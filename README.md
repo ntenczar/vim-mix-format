@@ -1,7 +1,11 @@
-# vim-mix-format
+# vim-mix-fformat
 
-Elixir 1.6 introduced the formatter: `mix format`. This plugin makes it easy to
-run the formatter asynchronously from within Vim 8 and Neovim.
+Instead of using the built in Elixir formatter (`mix format`), this calls the
+[Elixir Freedom Formatter](https://github.com/gamache/freedom_formatter).
+
+Otherwise operates exactly the same (and has the same `:MixFormat` interface)
+as the project this is forked off of
+[vim-mix-format](https://github.com/mhinz/vim-mix-format).
 
 ![demo](demo.gif)
 
@@ -10,7 +14,7 @@ run the formatter asynchronously from within Vim 8 and Neovim.
 Use your [favorite plugin manager](https://github.com/mhinz/vim-galore#managing-plugins), e.g.
 [vim-plug](https://github.com/junegunn/vim-plug):
 
-    Plug 'mhinz/vim-mix-format'
+    Plug 'ntenczar/vim-mix-fformat'
 
 ## Commands
 
