@@ -1,5 +1,10 @@
 # vim-mix-fformat
 
+## Deprecated: please don't use this
+Use something sensible like `coc-elixir` to get vim to autoformat your elixir
+
+## Old README
+
 Instead of using the built in Elixir formatter (`mix format`), this calls the
 [Elixir Freedom Formatter](https://github.com/gamache/freedom_formatter).
 
